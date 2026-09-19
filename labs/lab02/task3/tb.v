@@ -48,7 +48,7 @@ module tb;
     $finish;
   end
 
-  initial
+  initial 
     $monitor($time, " A=%b B=%b | GT=%b LT=%b EQ=%b", t_a, t_b, t_gt, t_lt, t_eq);
 
 endmodule
