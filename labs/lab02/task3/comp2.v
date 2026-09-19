@@ -10,7 +10,7 @@
 
 module comp2 (
   input  [1:0] A,
-  input  [1:0] B,
+  input  [1:0] B, 
   output       GT,
   output       LT,
   output       EQ
