@@ -17,6 +17,6 @@ module mux_beh (
       Y = I1;
     else
       Y = I0;
-  end 
+  end  
 
 endmodule
